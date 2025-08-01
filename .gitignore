@@ -1,0 +1,107 @@
+# ====================
+# Backend (.gitignore)
+# ====================
+
+# Python cache and build files
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+.env/
+.Python
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Django specific
+*/migrations/
+
+# Databases
+*.sqlite3
+*.db
+
+# Logs
+*.log
+
+# Media and static files (if collected)
+media/
+staticfiles/
+static/
+
+# Environment variables
+.env
+.env.*
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Pytest caches
+.cache/
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# OS system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+
+# ====================
+# Frontend (.gitignore)
+# ====================
+
+# Node dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Testing coverage
+/coverage
+
+# Next.js build output
+/.next/
+/out/
+
+# Production build
+/build
+
+# Miscellaneous
+*.pem
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Environment files (optional to commit)
+/.env*
+
+# Vercel deployment folder
+.vercel
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
