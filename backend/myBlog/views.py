@@ -6,7 +6,7 @@ from .serializers import BlogSerializer
 
 # Create your views here.
 class BlogList(APIView):
-    def get(self):
+    def get(self, request):
         blogs = Blog.objects.all()
         serializer = BlogSerializer(blogs, many=True)
         return Response(serializer.data)
