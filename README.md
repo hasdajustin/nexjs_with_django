@@ -9,7 +9,6 @@ A basic blog application built with **Next.js** for the frontend and **Django RE
 -  Tailwind CSS for responsive, elegant design
 -  Axios for API communication
 -  Reusable component structure
--  CORS-configured backend for secure API access
 
 ## Tech Stack
 | **Frontend** | **Backend** | **Tools & Utilities** |
