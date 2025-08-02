@@ -24,10 +24,10 @@ A basic blog application built with **Next.js** for the frontend and **Django RE
 - Node.js and npm
 
 ```python
-git clone https://github.com/hasdajustin/nexjs_with_django.git
+git clone https://github.com/hasdajustin/nextjs_with_django.git
 ```
 ```python
-cd nexjs_with_django
+cd nextjs_with_django
 ```
 ### Backend Setup
 ```python
